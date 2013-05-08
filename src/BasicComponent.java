@@ -1,32 +1,96 @@
-public class BasicComponent {
+/**
+ * BasicComponent provides a straightforward in memory implementation of a Component.
+ */
+public class BasicComponent implements Component {
 
-    private float mu;
+    /**
+     * The mu value, or media of the component.
+     */
+    private double mu;
 
-    private float sigma;
+    /**
+     * The sigma value, or variance of the component.
+     */
+    private double sigma;
 
-    private float tau;
+    /**
+     * The tau value, or mixing proportion of the component.
+     */
+    private double tau;
 
-    public float getMu() {
+    /**
+     * Construct a BasicComponent by passing a mu, sigma, and tau.
+     *
+     * @param mu the mu value
+     * @param sigma the sigma value
+     * @param tau the tau value
+     */
+    public BasicComponent(double mu, double sigma, double tau) {
+        this.mu = mu;
+        this.sigma = sigma;
+        this.tau = tau;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    @Override
+    public double getMu() {
         return mu;
     }
 
+    /**
+     * @inheritDoc
+     */
+    @Override
     public void setMu(float mu) {
         this.mu = mu;
     }
 
-    public float getSigma() {
+    /**
+     * @inheritDoc
+     */
+    @Override
+    public double getSigma() {
         return sigma;
     }
 
+    /**
+     * @inheritDoc
+     */
+    @Override
     public void setSigma(float sigma) {
         this.sigma = sigma;
     }
 
-    public float getTau() {
+    /**
+     * @inheritDoc
+     */
+    @Override
+    public double getTau() {
         return tau;
     }
 
+    /**
+     * @inheritDoc
+     */
+    @Override
     public void setTau(float tau) {
         this.tau = tau;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    @Override
+    public double getSampleLikelihood(Double sample) {
+
+        double l = Math.exp(-1 * Math.pow(sample - mu, 2) / (2 * sigma)) / Math.sqrt(2 * Math.PI * sigma);
+
+        if (Double.isNaN(l)) {
+            return Double.MIN_VALUE;
+        }
+
+        return l + Double.MIN_VALUE;
     }
 }
