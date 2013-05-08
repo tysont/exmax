@@ -1,7 +1,9 @@
+package exmax;
+
 import java.util.*;
 
 /**
- * ModelFactory contains functionality for constructing and maximizing models.
+ * exmax.ModelFactory contains functionality for constructing and maximizing models.
  */
 public abstract class ModelFactory {
 
@@ -28,7 +30,7 @@ public abstract class ModelFactory {
     }
 
     /**
-     * Create a Model by passing in samples and a number of components.
+     * Create a exmax.Model by passing in samples and a number of components.
      *
      * @param samples the samples
      * @param componentSize the number of components, greater than or equal to 2
@@ -66,7 +68,7 @@ public abstract class ModelFactory {
     }
 
     /**
-     * Create a Model and then run expectation maximization on the model.
+     * Create a exmax.Model and then run expectation maximization on the model.
      *
      * @param samples the samples
      * @param components the number of components, greater than or equal to 2

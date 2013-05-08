@@ -1,3 +1,5 @@
+package exmax;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -5,7 +7,7 @@ import java.util.List;
 public class Main {
 
     /**
-     * Main thread of execution, for generating simple models based on samples that come from
+     * exmax.Main thread of execution, for generating simple models based on samples that come from
      * a text file and writing information about the models to another text file.
      *
      * @param args the path of the input file and the output file
@@ -34,8 +36,8 @@ public class Main {
             List<Model> models = ModelFactory.createMaximizedModels(samples, 5);
 
             // Create the best model for the samples.
-            //List<Model> models = new ArrayList<Model>();
-            //Model model = ModelFactory.createMaximizedModel(samples);
+            //List<exmax.Model> models = new ArrayList<exmax.Model>();
+            //exmax.Model model = exmax.ModelFactory.createMaximizedModel(samples);
             //models.add(model);
 
             // Write the models to file.

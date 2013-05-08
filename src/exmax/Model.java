@@ -1,7 +1,9 @@
+package exmax;
+
 import java.util.List;
 
 /**
- * Model represents a distribution of samples and a set of components that attempt to describe the
+ * exmax.Model represents a distribution of samples and a set of components that attempt to describe the
  * samples as accurately as possible.
  */
 public interface Model {

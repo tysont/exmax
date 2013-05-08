@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f950ea2-8d3d-4dfb-950e-8368c321619f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/sample.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/samples.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BasicComponent.java" afterPath="$PROJECT_DIR$/src/BasicComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BasicModel.java" afterPath="$PROJECT_DIR$/src/BasicModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component.java" afterPath="$PROJECT_DIR$/src/Component.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model.java" afterPath="$PROJECT_DIR$/src/Model.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ModelFactory.java" afterPath="$PROJECT_DIR$/src/ModelFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/output1.txt" afterPath="$PROJECT_DIR$/data/output1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/output2.txt" afterPath="$PROJECT_DIR$/data/output2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BasicComponent.java" afterPath="$PROJECT_DIR$/src/exmax/BasicComponent.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BasicModel.java" afterPath="$PROJECT_DIR$/src/exmax/BasicModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Component.java" afterPath="$PROJECT_DIR$/src/exmax/Component.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/exmax/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Model.java" afterPath="$PROJECT_DIR$/src/exmax/Model.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ModelFactory.java" afterPath="$PROJECT_DIR$/src/exmax/ModelFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exmax.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4f950ea2-8d3d-4dfb-950e-8368c321619f" time="1367989419034" ignored="false" />
+    <file path="/Dummy.txt" changelist="4f950ea2-8d3d-4dfb-950e-8368c321619f" time="1368035405414" ignored="false" />
     <file path="/Main.java" changelist="4f950ea2-8d3d-4dfb-950e-8368c321619f" time="1367994610226" ignored="false" />
     <file path="/Component.java" changelist="4f950ea2-8d3d-4dfb-950e-8368c321619f" time="1367994737318" ignored="false" />
     <file path="/Result.java" changelist="4f950ea2-8d3d-4dfb-950e-8368c321619f" time="1367782694368" ignored="false" />
@@ -93,61 +89,66 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/exmax/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="160" selection-start="876" selection-end="876" vertical-scroll-proportion="0.4861945">
+            <state line="20" column="67" selection-start="602" selection-end="602" vertical-scroll-proportion="0.36014405">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2337#2345#0" expanded="true" />
+                <element signature="e#2383#2391#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicModel.java">
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="4" selection-start="870" selection-end="900" vertical-scroll-proportion="0.0">
+            <state line="7" column="60" selection-start="356" selection-end="375" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exmax/BasicModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="4" selection-start="904" selection-end="934" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ModelFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ModelFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/exmax/ModelFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="82" selection-start="7214" selection-end="7214" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1416#1427#0" expanded="true" />
-                <element signature="e#4196#4203#0" expanded="true" />
-                <element signature="e#5327#5338#0" expanded="true" />
-              </folding>
+            <state line="185" column="82" selection-start="7248" selection-end="7248" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Model.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model.java">
+        <entry file="file://$PROJECT_DIR$/src/exmax/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="50" selection-start="2151" selection-end="2151" vertical-scroll-proportion="-42.0">
+            <state line="72" column="50" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BasicComponent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicComponent.java">
+        <entry file="file://$PROJECT_DIR$/src/exmax/BasicComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="8" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+            <state line="91" column="8" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Component.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component.java">
+        <entry file="file://$PROJECT_DIR$/src/exmax/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="105" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+            <state line="3" column="111" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,12 +186,14 @@
         <option value="$PROJECT_DIR$/src/ModelFactory.java" />
         <option value="$PROJECT_DIR$/src/Component.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/exmax/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="693" />
-    <option name="y" value="145" />
+    <option name="x" value="373" />
+    <option name="y" value="209" />
     <option name="width" value="1698" />
     <option name="height" value="1327" />
   </component>
@@ -223,7 +226,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,6 +257,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exmax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -272,6 +278,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,14 +295,14 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="exmax.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="data/sample1.txt data/output1.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -388,21 +395,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="693" y="145" width="1698" height="1327" extended-state="0" />
+    <frame x="373" y="209" width="1698" height="1327" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.4951574" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.49031478" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2889073" sideWeight="0.4636804" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2889073" sideWeight="0.4636804" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2889073" sideWeight="0.5320823" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2889073" sideWeight="0.5054479" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.4951574" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286424" sideWeight="0.48062953" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.4951574" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -412,7 +419,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.4951574" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.49273607" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286424" sideWeight="0.48062953" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.49757868" order="7" side_tool="false" content_ui="tabs" />
@@ -478,70 +485,59 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ModelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="56" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1416#1427#0" expanded="true" />
-            <element signature="e#4196#4203#0" expanded="true" />
-            <element signature="e#5327#5338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="20" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/BasicComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="31" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="42" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2337#2345#0" expanded="true" />
+            <element signature="e#2383#2391#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicModel.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/BasicModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="0" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="22" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/BasicComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="22" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="4" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
           <folding />
@@ -550,56 +546,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/output1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exmax/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="111" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/BasicComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="105" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+        <state line="91" column="8" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="8" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+        <state line="72" column="50" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/ModelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="50" selection-start="2151" selection-end="2151" vertical-scroll-proportion="-42.0">
+        <state line="185" column="82" selection-start="7248" selection-end="7248" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ModelFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/exmax/BasicModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="82" selection-start="7214" selection-end="7214" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1416#1427#0" expanded="true" />
-            <element signature="e#4196#4203#0" expanded="true" />
-            <element signature="e#5327#5338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="870" selection-end="900" vertical-scroll-proportion="0.0">
+        <state line="36" column="4" selection-start="904" selection-end="934" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="160" selection-start="876" selection-end="876" vertical-scroll-proportion="0.4861945">
+        <state line="7" column="60" selection-start="356" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exmax/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="67" selection-start="602" selection-end="602" vertical-scroll-proportion="0.36014405">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2337#2345#0" expanded="true" />
+            <element signature="e#2383#2391#0" expanded="true" />
           </folding>
         </state>
       </provider>

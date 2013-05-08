@@ -1,7 +1,9 @@
+package exmax;
+
 import java.util.List;
 
 /**
- * BasicModel provides a straightforward in memory implementation of a Model.
+ * exmax.BasicModel provides a straightforward in memory implementation of a exmax.Model.
  */
 public class BasicModel implements Model {
 
@@ -21,7 +23,7 @@ public class BasicModel implements Model {
     private Model priorModel;
 
     /**
-     * Construct a BasicModel by passing in components and samples.
+     * Construct a exmax.BasicModel by passing in components and samples.
      *
      * @param components list of components in the model
      * @param samples list of samples in the model

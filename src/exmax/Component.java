@@ -1,5 +1,7 @@
+package exmax;
+
 /**
- * Component represents a single contributing factor (often a hidden input) to a distribution of samples.
+ * exmax.Component represents a single contributing factor (often a hidden input) to a distribution of samples.
  */
 public interface Component {
 

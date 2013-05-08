@@ -1,5 +1,7 @@
+package exmax;
+
 /**
- * BasicComponent provides a straightforward in memory implementation of a Component.
+ * exmax.BasicComponent provides a straightforward in memory implementation of a exmax.Component.
  */
 public class BasicComponent implements Component {
 
@@ -19,7 +21,7 @@ public class BasicComponent implements Component {
     private double tau;
 
     /**
-     * Construct a BasicComponent by passing a mu, sigma, and tau.
+     * Construct a exmax.BasicComponent by passing a mu, sigma, and tau.
      *
      * @param mu the mu value
      * @param sigma the sigma value
